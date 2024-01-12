@@ -20,3 +20,19 @@
   transform: scale(1.5) !important;
 }
 👈*/
+@media (min-width: 992px) {
+  .fs-lg-4 {
+    font-size: 5rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .fs-md-3 {
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .fs-sm-1 {
+    font-size: 1rem !important;
+  }
+}

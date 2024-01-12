@@ -34,11 +34,11 @@ const Gallery = () => {
   return (
     <Row>
       <Row>
-        <Col className="col-1">
+        <Col className="col-1 p-4 align-self-center">
           <Button
             className="btn btn-dark"
             onClick={() => scroll(-300)}
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: "100%", height: "10em" }}
           >
             <i className="bi bi-caret-left-fill fs-1"></i>
           </Button>
@@ -66,10 +66,10 @@ const Gallery = () => {
             </Row>
           </Row>
         </Col>
-        <Col className="col-1">
+        <Col className="col-1 p-4 align-self-center">
           <Button
             className="btn btn-dark"
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: "100%", height: "10em" }}
             onClick={() => scroll(300)}
           >
             <i className="bi bi-caret-right-fill fs-1"></i>
